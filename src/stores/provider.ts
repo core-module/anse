@@ -6,10 +6,7 @@ import { allConversationTypes } from '@/types/conversation'
 import type { BotMeta } from '@/types/app'
 
 export const providerList = [
-  providerOpenAI(),
-  providerAzure(),
-  providerReplicate(),
-  providerGoogle(),
+  providerAzure()
 ]
 
 export const providerMetaList = providerList.map(provider => ({
